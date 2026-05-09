@@ -2,10 +2,16 @@
 # Dataset — terlalu besar untuk GitHub
 data/
 
+# Model files — bisa >100MB
+outputs/models/*.h5
+outputs/models/*.keras
+
 # Python cache
 __pycache__/
 *.pyc
+*.pyo
 .ipynb_checkpoints/
 
-# Model files (opsional, bisa di-comment jika mau push)
-outputs/models/*.h5
+# OS files
+.DS_Store
+Thumbs.db
